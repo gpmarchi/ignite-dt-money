@@ -9,8 +9,6 @@ import { Container } from './styles';
 export function Summary() {
 	const { transactions } = useContext(TransactionsContext);
 
-	console.log(transactions);
-
 	return (
 		<Container>
 			<div>
